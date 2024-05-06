@@ -1,0 +1,17 @@
+{
+  "database": {
+    "host": "prod_url",
+    "port": 5432,
+    "username": "prod_user",
+    "password": "prod_password",
+    "database": "prod_db"
+  },
+  "api": {
+    "baseUrl": "http://prod-api:3000",
+    "apiKey": "dummy_api_key"
+  },
+  "logging": {
+    "level": "prod",
+    "file": "logs/prod.log"
+  }
+}

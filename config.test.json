@@ -1,0 +1,17 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "test_user",
+    "password": "test_password",
+    "database": "test_db"
+  },
+  "api": {
+    "baseUrl": "http://localhost:5000",
+    "apiKey": "dummy_api_key"
+  },
+  "logging": {
+    "level": "debug",
+    "file": "logs/test.log"
+  }
+}
