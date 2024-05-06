@@ -27,6 +27,7 @@ jobs:
 
       - name: Build
         run: echo "Building application..."
+          mkdir dist
 
       - name: Copy Configuration Files
         run: cp config.$ENV.json dist/config.json
