@@ -4,7 +4,9 @@ import { Hono } from "hono";
 const app = new Hono();
 
 app.get("/", (c) => {
-  return c.text("Hello Hono! I am practicing BRM Workshop");
+  return c.text(
+    process.env.CONFIG_MESSAGE || "Hello Hono! I am practicing BRM Workshop"
+  );
 });
 
 const port = 3000;
