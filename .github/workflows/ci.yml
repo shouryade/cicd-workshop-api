@@ -26,8 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: echo "Building application..."
-          mkdir dist
+        run: mkdir dist
 
       - name: Copy Configuration Files
         run: cp config.$ENV.json dist/config.json
